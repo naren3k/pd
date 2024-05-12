@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Words</title>
+</head>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    th, td {
+        padding: 8px;
+        text-align: left;
+    }
+</style>
+<table>
+    <tr>
+        <td>Vigtigt</td>
+        <td>Important</td>
+    </tr>
+    <tr>
+        <td>Hende</td>
+        <td>Her</td>
+    </tr>
+    <tr>
+        <td>Det gør hun nemlig tit</td>
+        <td>She does that often</td>
+    </tr>
+    <tr>
+        <td>Desværre</td>
+        <td>Unfortunately</td>
+    </tr>
+    <tr>
+        <td>Indkøb</td>
+        <td>Grocery shopping</td>
+    </tr>
+    <tr>
+        <td>Gik sidste uge</td>
+        <td>Went last week</td>
+    </tr>
+    <tr>
+        <td>Betjenten</td>
+        <td>The police officer</td>
+    </tr>
+    <tr>
+        <td>Det er ikke besværligt</td>
+        <td>It is not difficult</td>
+    </tr>
+    <tr>
+        <td>Beata har også fået et</td>
+        <td>Beata has also received one</td>
+    </tr>
+    <tr>
+        <td>Alligevel er hun ikke</td>
+        <td>However, she is not</td>
+    </tr>
+    <tr>
+        <td>Dyrere</td>
+        <td>More expensive</td>
+    </tr>
+    <tr>
+        <td>Flere</td>
+        <td>More</td>
+    </tr>
+    <tr>
+        <td>Hvis man kun sover</td>
+        <td>If one only sleeps</td>
+    </tr>
+    <tr>
+        <td>E og det gør han aldr</td>
+        <td>And he never does</td>
+    </tr>
+    <tr>
+        <td>Kort</td>
+        <td>Short</td>
+    </tr>
+    <tr>
+        <td>Inden man går på indkøb</td>
+        <td>Before going shopping</td>
+    </tr>
+    <tr>
+        <td>Tømme skraldespande</td>
+        <td>Empty trash cans</td>
+    </tr>
+    <tr>
+        <td>Par aftener</td>
+        <td>A couple of evenings</td>
+    </tr>
+    <tr>
+        <td>Fylder</td>
+        <td>Fill</td>
+    </tr>
+    <tr>
+        <td>Savner</td>
+        <td>Misses</td>
+    </tr>
+    <tr>
+        <td>Nemt</td>
+        <td>Easy</td>
+    </tr>
+    <tr>
+        <td>Selvom</td>
+        <td>Although</td>
+    </tr>
+    <tr>
+        <td>Følelse</td>
+        <td>Feeling</td>
+    </tr>
+    <tr>
+        <td>Meget kort tid</td>
+        <td>Very short time</td>
+    </tr>
+    <tr>
+        <td>Ingen</td>
+        <td>None</td>
+    </tr>
+    <tr>
+        <td>Siden</td>
+        <td>Since</td>
+    </tr>
+    <tr>
+        <td>Stjålet</td>
+        <td>Stolen</td>
+    </tr>
+    <tr>
+        <td>Aftaler</td>
+        <td>Agreements</td>
+    </tr>
+    <tr>
+        <td>Hun køber rigtig mange</td>
+        <td>She buys a lot of</td>
+    </tr>
+    <tr>
+        <td>Være væk fra familien</td>
+        <td>Be away from the family</td>
+    </tr>
+    <tr>
+        <td>Alligevel</td>
+        <td>Nevertheless</td>
+    </tr>
+    <tr>
+        <td>Tit</td>
+        <td>Often</td>
+    </tr>
+    <tr>
+        <td>Allerede</td>
+        <td>Already</td>
+    </tr>
+    <tr>
+        <td>Vågen</td>
+        <td>Awake</td>
+    </tr>
+    <tr>
+        <td>Fleste</td>
+        <td>Most</td>
+    </tr>
+    <tr>
+        <td>Kort tid</td>
+        <td>Short time</td>
+    </tr>
+    <tr>
+        <td>Vild med</td>
+        <td>Crazy about</td>
+    </tr>
+    <tr>
+        <td>Slappe af</td>
+        <td>Relax</td>
+    </tr>
+    <tr>
+        <td>At stille sig op</td>
+        <td>To stand up</td>
+    </tr>
+    <tr>
+        <td>Færdige</td>
+        <td>Finished</td>
+    </tr>
+    <tr>
+        <td>Børnebørnenes</td>
+        <td>Grandchildren&#39;s</td>
+    </tr>
+    <tr>
+        <td>Travl</td>
+        <td>Busy</td>
+    </tr>
+    <tr>
+        <td>Måske har de haft en d</td>
+        <td>Maybe they have had a</td>
+    </tr>
+    <tr>
+        <td>Spise mindre sukker i</td>
+        <td>Eat less sugar in</td>
+    </tr>
+    <tr>
+        <td>Elever</td>
+        <td>Students</td>
+    </tr>
+    <tr>
+        <td>Frivillig</td>
+        <td>Volunteer</td>
+    </tr>
+    <tr>
+        <td>Bagefter</td>
+        <td>Afterwards</td>
+    </tr>
+    <tr>
+        <td>Ferie</td>
+        <td>Holiday</td>
+    </tr>
+    <tr>
+        <td>Spændende</td>
+        <td>Exciting</td>
+    </tr>
+    <tr>
+        <td>Hun føler sig meget he</td>
+        <td>She feels very</td>
+    </tr>
+    <tr>
+        <td>Tilfreds</td>
+        <td>Satisfied</td>
+    </tr>
+    <tr>
+        <td>Græder</td>
+        <td>Cries</td>
+    </tr>
+    <tr>
+        <td>Spørgsmål</td>
+        <td>Questions</td>
+    </tr>
+    <tr>
+        <td>Søvnløs</td>
+        <td>Sleepless</td>
+    </tr>
+    <tr>
+        <td>Gemme</td>
+        <td>Hide</td>
+    </tr>
+    <tr>
+        <td>Gå forbi de søde sager</td>
+        <td>Walk past the sweet treats</td>
+    </tr>
+    <tr>
+        <td>For de er faktisk mege</td>
+        <td>Because they are actually quite</td>
+    </tr>
+    <tr>
+        <td>De det hele selv</td>
+        <td>They do it all themselves</td>
+    </tr>
+    <tr>
+        <td>Hellere</td>
+        <td>Rather</td>
+    </tr>
+    <tr>
+        <td>Slukker</td>
+        <td>Turns off</td>
+    </tr>
+    <tr>
+        <td>Flere gange</td>
+        <td>Several times</td>
+    </tr>
+    <tr>
+        <td>Fjernsyn</td>
+        <td>TV</td>
+    </tr>
+    <tr>
+        <td>Billigere</td>
+        <td>Cheaper</td>
+    </tr>
+    <tr>
+        <td>Indkøbsliste</td>
+        <td>Shopping list</td>
+    </tr>
+    <tr>
+        <td>Savnede</td>
+        <td>Missed</td>
+    </tr>
+    <tr>
+        <td>Tyv</td>
+        <td>Thief</td>
+    </tr>
+    <tr>
+        <td>Åbenbart</td>
+        <td>Obviously</td>
+    </tr>
+    <tr>
+        <td>Gange</td>
+        <td>Times</td>
+    </tr>
+    <tr>
+        <td>Lære en ny kultur at k</td>
+        <td>Learn a new culture to</td>
+    </tr>
+    <tr>
+        <td>Det er ikke nemt at fi</td>
+        <td>It&#39;s not easy to find</td>
+    </tr>
+    <tr>
+        <td>En gang om ugen</td>
+        <td>Once a week</td>
+    </tr>
+    <tr>
+        <td>Når det regner</td>
+        <td>When it rains</td>
+    </tr>
+    <tr>
+        <td>Få</td>
+        <td>Get</td>
+    </tr>
+    <tr>
+        <td>Heldigvis</td>
+        <td>Fortunately</td>
+    </tr>
+    <tr>
+        <td>Straks</td>
+        <td>Immediately</td>
+    </tr>
+    <tr>
+        <td>Lettere</td>
+        <td>Easier</td>
+    </tr>
+    <tr>
+        <td>Tidligt</td>
+        <td>Early</td>
+    </tr>
+    <tr>
+        <td>Fag</td>
+        <td>Subjects</td>
+    </tr>
+    <tr>
+        <td>Ned</td>
+        <td>Down</td>
+    </tr>
+    <tr>
+        <td>Noget helt særligt for</td>
+        <td>Something very special for</td>
+    </tr>
+    <tr>
+        <td>Bevæge</td>
+        <td>Move</td>
+    </tr>
+    <tr>
+        <td>Skuffet</td>
+        <td>Disappointed</td>
+    </tr>
+    <tr>
+        <td>Tilfreds</td>
+        <td>Satisfied</td>
+    </tr>
+    <tr>
+        <td>Nok</td>
+        <td>Enough</td>
+    </tr>
+    <tr>
+        <td>Almindelig</td>
+        <td>Common</td>
+    </tr>
+    <tr>
+        <td>Tidligere</td>
+        <td>Previously</td>
+    </tr>
+</table>
+
+</body>
+</html>
